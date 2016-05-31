@@ -49,16 +49,29 @@ body{
 	color: #28275A;
 	text-align: center;
 	width: 25%;
+	height: 250px;
 	float:left;
+	overflow: auto;
+	zoom: 1;
+}
+.caixaADM{	
+	display: overlay;
+	border: 0;
+	background-color: #78acff;
+	opacity: 0.15;
+	filter: alpha(opacity=15);
+	width: 100%;
+	height: 300px;
+	overflow: auto;
+	zoom: 1;
 }
 .imagemadm{
 	display: block;
 	border: 0;
-	background: #78ACFF;
 	opacity: 0.25;
 	filter: alpha(opacity=25);
-	width: 25%;
-
+	overflow: auto;
+	zoom: 1;
 }
 
 .contabeis{
