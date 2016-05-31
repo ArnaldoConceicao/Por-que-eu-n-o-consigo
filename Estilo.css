@@ -1,0 +1,141 @@
+body{
+	margin:auto;
+	font-family: Montserrat;
+	color: white;
+	font-size: 13px;
+	width: auto;
+	margin: auto;
+	text-decoration: none;
+}
+
+
+#Cabeçalho{
+	overflow: auto;
+	zoom: 1;
+}
+
+.caixaazul{
+	background: #0180B0;
+	padding-left: 11%;
+	padding-right: 11%;
+	padding-top: 1.5%;
+	padding-bottom: 1%;
+	overflow: auto;
+	zoom: 1;
+}
+
+.caixaazul p,a{
+	float: left;
+	padding-left: 13%;
+}
+
+
+#Bannerdestaque{
+	overflow: auto;
+	zoom: 1;
+}
+
+
+
+#Cursos{
+	overflow: auto;
+	zoom: 1;
+	display: inline-block;
+	width: 100%;
+	height: 315px;
+
+}
+.administração{
+	color: #28275A;
+	text-align: center;
+	width: 25%;
+	float:left;
+}
+.imagemadm{
+	display: block;
+	border: 0;
+	background: #78ACFF;
+	opacity: 0.25;
+	filter: alpha(opacity=25);
+	width: 25%;
+
+}
+
+.contabeis{
+	background: #C4A6FF;
+	overflow: auto;
+	zoom: 1;
+	float: left;
+	width: 25%;
+}
+
+.design{
+	background: #FFDB08;
+	overflow: auto;
+	zoom: 1;
+	float: left;
+	width: 25%;
+}
+
+.sistemas{
+	background: #B0E000;
+	overflow: auto;
+	zoom: 1;
+	float: left;
+	width: 25%;
+}
+
+.direita{
+	overflow: auto;
+	zoom: 1;
+	width: 25%;
+}
+.esquerda{
+	overflow: auto;
+	zoom: 1;
+	width: 25%;
+}
+
+
+
+.umquarto{
+	width: 25%;
+}
+
+#EstagioFacebook{
+	overflow: auto;
+	zoom: 1;
+}
+.CaixaEstágio{
+	background-color: #e08a28;
+	overflow: auto;
+	zoom: 1;
+	min-height: 200px
+}
+
+
+
+
+
+
+
+#Rodapé{
+	display: inline-block;
+	overflow: auto;
+	zoom: 1;
+}
+.rodapecaixa{
+	background: #0d6b93;
+	padding-left: 11%;
+	padding-right: 11%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	display: block;
+	overflow: auto;
+	zoom: 1;
+}
+
+#Rodapé div a{
+	text-decoration: none;
+	color: white;
+}
