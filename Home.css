@@ -2,7 +2,7 @@ body{
 	margin:auto;
 	font-family: Montserrat;
 	color: white;
-	font-size: 13px;
+	font-size: 16px;
 	width: auto;
 	margin: auto;
 	text-decoration: none;
@@ -42,32 +42,91 @@ body{
 	zoom: 1;
 	display: inline-block;
 	width: 100%;
-	height: 315px;
+	height: auto;
 
 }
+
+
 .administração{
+	position: relative;
 	color: #28275A;
-	text-align: center;
 	width: 25%;
 	float:left;
+	overflow: auto;
+	zoom: 1;
 }
-.imagemadm{
-	display: block;
-	border: 0;
-	background: #78ACFF;
-	opacity: 0.25;
-	filter: alpha(opacity=25);
-	width: 25%;
+.backgroundADM{
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #78acff;
+	opacity: 0.15;
+	filter: alpha(opacity=15);
+	width: 100%;
+	height: 315px;
+}
+.BoxleiamaisADM{
+	position: absolute;
+	left: -7%;
+	top: 260px;
+	background-color: #6b9ee8; 
+	width: 116%;
+	height: 42px;
+}
+.imagem{
+	opacity: 0.15;
+	height: 315px;
+	width: 100%;
+	filter: alpha(opacity=15);
+}
+.info{
+	position: absolute;
+	text-align: center;
+	left: 7%;
+	top: 5%;
+	width: 85%;
+}
+.info p{
+	padding-top: 15px;
+}
+.info a{
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	margin-left: 25%;
+	margin-top: 10px;
+}
 
-}
 
 .contabeis{
-	background: #C4A6FF;
+	position: relative;
 	overflow: auto;
+	color: #28275A;
 	zoom: 1;
 	float: left;
 	width: 25%;
 }
+.backgroundContabeis{
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #c4a6ff;
+	opacity: 0.15;
+	filter: alpha(opacity=15);
+	width: 100%;
+	height: 310px;
+}
+.BoxLeiamaisContabeis{
+	position: absolute;
+	left: -7%;
+	top: 260px;
+	background-color: #c4a6ff; 
+	width: 116%;
+	height: 42px;
+}
+
+
+
 
 .design{
 	background: #FFDB08;
@@ -76,6 +135,26 @@ body{
 	float: left;
 	width: 25%;
 }
+.backgroundDesign{
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #c4a6ff;
+	opacity: 0.15;
+	filter: alpha(opacity=15);
+	width: 100%;
+	height: 310px;
+}
+.BoxLeiamaisDesign{
+	position: absolute;
+	left: -7%;
+	top: 125%;
+	background-color: #c4a6ff; 
+	width: 116%;
+	height: 42px;
+}
+
+
 
 .sistemas{
 	background: #B0E000;
