@@ -67,10 +67,10 @@ body{
 }
 .BoxleiamaisADM{
 	position: absolute;
-	left: -7%;
+	left: -8%;
 	top: 260px;
 	background-color: #6b9ee8; 
-	width: 116%;
+	width: 117%;
 	height: 42px;
 }
 .imagem{
@@ -118,10 +118,10 @@ body{
 }
 .BoxLeiamaisContabeis{
 	position: absolute;
-	left: -7%;
+	left: -8%;
 	top: 260px;
 	background-color: #c4a6ff; 
-	width: 116%;
+	width: 117%;
 	height: 42px;
 }
 
@@ -129,7 +129,8 @@ body{
 
 
 .design{
-	background: #FFDB08;
+	position: relative;
+	color: #28275A;
 	overflow: auto;
 	zoom: 1;
 	float: left;
@@ -139,7 +140,7 @@ body{
 	position: absolute;
 	left: 0;
 	top: 0;
-	background-color: #c4a6ff;
+	background-color: #ffdb08;
 	opacity: 0.15;
 	filter: alpha(opacity=15);
 	width: 100%;
@@ -147,21 +148,40 @@ body{
 }
 .BoxLeiamaisDesign{
 	position: absolute;
-	left: -7%;
-	top: 125%;
-	background-color: #c4a6ff; 
-	width: 116%;
+	left: -8%;
+	top: 260px;
+	background-color: #ffdb08; 
+	width: 117%;
 	height: 42px;
 }
 
 
 
 .sistemas{
-	background: #B0E000;
+	position: relative;
+	color: #28275A;
 	overflow: auto;
 	zoom: 1;
 	float: left;
 	width: 25%;
+}
+.backgroundSistemas{
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #B0E000;
+	opacity: 0.15;
+	filter: alpha(opacity=15);
+	width: 100%;
+	height: 310px;
+}
+.BoxLeiamaisSistemas{
+	position: absolute;
+	left: -8%;
+	top: 260px;
+	background-color: #B0E000; 
+	width: 117%;
+	height: 42px;
 }
 
 .direita{
@@ -182,15 +202,19 @@ body{
 }
 
 #EstagioFacebook{
+	height: 613px;
 	overflow: auto;
 	zoom: 1;
 }
-.CaixaEstágio{
-	background-color: #e08a28;
-	overflow: auto;
-	zoom: 1;
-	min-height: 200px
+.TituloEstagio{
+	position: absolute;
+	left: -8%;
+	top: 260px;
+	background-color: #B0E000; 
+	width: 117%;
+	height: 42px;
 }
+
 
 
 
