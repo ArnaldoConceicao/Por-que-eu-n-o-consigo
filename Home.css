@@ -1,6 +1,7 @@
 body{
 	margin:auto;
 	font-family: Montserrat;
+	font-weight: regular;
 	color: white;
 	font-size: 16px;
 	width: auto;
@@ -184,43 +185,84 @@ body{
 	height: 42px;
 }
 
-.direita{
-	overflow: auto;
-	zoom: 1;
-	width: 25%;
-}
-.esquerda{
-	overflow: auto;
-	zoom: 1;
-	width: 25%;
-}
 
 
 
-.umquarto{
-	width: 25%;
-}
+
+
 
 #EstagioFacebook{
-	height: 613px;
+	height: 623px;
 	overflow: auto;
 	zoom: 1;
 }
-.TituloEstagio{
+.estagioDestaques{
+	position: relative;
+	color:  #28275A;
+	overflow: auto;
+	zoom: 1;
+	float: left;
+	width: 840px;
+	height: 623px;
+}
+.estagioDestaques a{
+	text-decoration: none;
+}
+.Destaques{
+	top: 0px;
+	margin: 0;
+	padding-top: 7px;
 	position: absolute;
-	left: -8%;
-	top: 260px;
-	background-color: #B0E000; 
-	width: 117%;
-	height: 42px;
+	text-align: center;
+	background-color: #3989C9;
+	color: #FFFFFF;
+	height: 38px;
+	width: 840px;
+}
+.Estagio{
+	top: 287px;
+	margin: 0;
+	padding-top: 7px;
+	position: absolute;
+	text-align: center;
+	background-color: #3989C9;
+	color: #FFFFFF;
+	height: 38px;
+	width: 840px;
+}
+.backgroundEstagioDestaques{
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #3A4A9F;
+	opacity: 0.15;
+	filter: alpha(opacity=15);
+	width: 840px;
+	height: 623px;
+
 }
 
 
 
+#Portaria{
+	height: 60px;
+	overflow: auto;
+	zoom: 1;
+	text-align: center;
+	text-decoration: none;
+	background-color: #D5D4D2;
+	color: #28275A;
+}
 
-
-
-
+#Portaria a{
+	position: relative;
+	padding-top: 5px;
+	padding-left: 180px;
+	top: 15px;
+	text-decoration: none;
+	font-weight: bolder;
+	color: #28275A;
+}
 
 #Rodapé{
 	display: inline-block;
