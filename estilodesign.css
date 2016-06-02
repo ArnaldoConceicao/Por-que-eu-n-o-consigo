@@ -1,0 +1,93 @@
+#Cabecalhotopo{
+	overflow: auto;
+	zoom: 1;
+}
+.caixaazul{
+	background: #0180B0;
+	padding-left: 11%;
+	padding-right: 11%;
+	padding-top: 1.5%;
+	padding-bottom: 1%;
+	overflow: auto;
+	zoom: 1;
+}
+.caixaazul p,a{
+	float: left;
+	padding-left: 13%;
+}
+#cabecalhocurso{
+	overflow: auto;
+	zoom:1;
+}
+.DESIGN{
+	font-size: 20px;
+	overflow: auto;
+	zoom:1;
+}
+.submenu{
+	background: #BFA406;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	float: center;
+	overflow: auto;
+	zoom: 1;
+}
+.submenu a {
+	color: #FFFFFF;
+	font-family: Monteserrat, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+}
+.submenu a:hover {
+	text-decoration: underline;
+	color: #1B1464;
+}
+#corpo{
+	overflow: auto;
+	zoom: 1;
+}
+.esquerda{
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+	margin-right: auto;
+	overflow: auto;
+	zoom: 1;	
+}
+.esquerda h3, h4, p{
+	float: left;
+	padding-right: 60%;
+	padding-left: 1%; 
+	margin-left: auto;
+	overflow: auto;
+	zoom: 1;
+}
+.direita{
+	background:#FFDB08;
+	float: right;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+	overflow: auto;
+	zoom: 1;
+}
+.direita h3, p{
+	float: right;
+	overflow: auto;
+	zoom: 1;
+}
+h1{
+	font-family: Montserrat extrabold, sans-serif;
+	color:#F15A24;
+}
+h3, h4{
+	font-family: Montserrat extrabold, sans-serif;
+	color:#1B1464;
+}
+p{
+	font-family: Montserrat light, sans-serif;
+	color:#1B1464;
+}
