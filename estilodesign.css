@@ -57,7 +57,7 @@
 	overflow: auto;
 	zoom: 1;	
 }
-.esquerda h3, h4, p{
+.esquerda h3, .esquerda h4, .esquerda p{
 	float: left;
 	padding-right: 60%;
 	padding-left: 1%; 
@@ -74,7 +74,7 @@
 	overflow: auto;
 	zoom: 1;
 }
-.direita h3, p{
+.direita h3, .direita p{
 	float: right;
 	overflow: auto;
 	zoom: 1;
@@ -90,4 +90,21 @@ h3, h4{
 p{
 	font-family: Montserrat light, sans-serif;
 	color:#1B1464;
+}
+
+.flexbox {
+	display: flex;
+	flex-direction: row;
+}
+
+.flexbox .coluna {
+	padding: 0 20px;
+}
+
+#sobre-curso, #dados-curso {
+	width: 40%;
+}
+#resumo-curso {
+	width: 20%;
+	background: red;
 }
