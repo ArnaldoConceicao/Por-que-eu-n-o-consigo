@@ -40,41 +40,51 @@ body{
 #Cursos > div {
 	text-align: center;
 	position: relative;
-	padding: 30px 30px 0px 30px;
+	padding: 30px 30px 90px 30px;
+	width: 25%;
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
 }
 
 #Cursos .leia-mais {
 	position: absolute;
 	bottom: 0;
-	
+    left: 0;
+    right: 0;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
 }
 
 .administracao{
-	position: relative;
-	color: #28275A;
-	width: 25%;
-	float:left;
-	overflow: auto;
-	zoom: 1;
+	background: linear-gradient(rgba(129, 172, 255, 0.30), rgba(129, 172, 255, 0.30)), url(Imagens/fundo-home-adm.jpg);
 }
-.backgroundADM{
-	position: absolute;
-	left: 0;
-	top: 0;
-	background-color: #78acff;
-	opacity: 0.15;
-	filter: alpha(opacity=15);
-	width: 100%;
-	height: 315px;
+.administracao .leia-mais{
+	background: #6B9EE8;
 }
-.BoxleiamaisADM{
-	position: absolute;
-	left: -8%;
-	top: 260px;
-	background-color: #6b9ee8; 
-	width: 117%;
-	height: 42px;
+
+.contabeis{
+	background: linear-gradient(rgba(196, 166, 255, 0.30), rgba(196, 166, 255, 0.30)), url(Imagens/fundo-home-contabeis.jpg);
 }
+.contabeis .leia-mais{
+	background: #A38CDD;
+}
+
+.sistemas{
+	background: linear-gradient(rgba(176, 244, 0, 0.30), rgba(176, 244, 0, 0.30)), url(Imagens/fundo-home-sistemas.jpg);
+}
+.sistemas .leia-mais{
+	background: #9EC400;
+}
+
+.design{
+	background: linear-gradient(rgba(255, 219, 8, 0.30), rgba(255, 219, 8, 0.30)), url(Imagens/fundo-home-design.jpg);
+}
+.design .leia-mais{
+	background: #BFA406;
+}
+
 .imagem{
 	opacity: 0.15;
 	height: 315px;
@@ -127,27 +137,6 @@ body{
 	height: 42px;
 }
 
-
-
-
-.design{
-	position: relative;
-	color: #28275A;
-	overflow: auto;
-	zoom: 1;
-	float: left;
-	width: 25%;
-}
-.backgroundDesign{
-	position: absolute;
-	left: 0;
-	top: 0;
-	background-color: #ffdb08;
-	opacity: 0.15;
-	filter: alpha(opacity=15);
-	width: 100%;
-	height: 310px;
-}
 .BoxLeiamaisDesign{
 	position: absolute;
 	left: -8%;
