@@ -1,7 +1,6 @@
 body{
 	margin:auto;
 	font-family: Montserrat;
-	font-weight: regular;
 	color: white;
 	font-size: 16px;
 	width: auto;
@@ -34,5 +33,32 @@ p{
 	zoom: 1;
 }
 .logocabeca{
-		background: url(Imagens/fundo-home-adm.jpg);
+	background: url(Imagens/banner_2016_fean.jpg);
+}
+footer{
+	background: #3988C8;
+	display: block;
+}
+.rodape{
+	color: #ffffff;
+	text-align: left;
+	font-size: 80%;
+}
+.rodape a{
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Montserrat light, sans-serif;
+}
+.rodape a:hover{
+	color: #070060;
+}
+.rodape h4{
+	margin-top: 5%;
+	margin-bottom: 1%;
+	font-family: Montserrat, sans-serif;
+	font-size: 100%;
+}
+.logo-rodape img{
+	width: 9%;
+	margin: 1%;
 }
