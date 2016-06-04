@@ -1,0 +1,38 @@
+body{
+	margin:auto;
+	font-family: Montserrat;
+	font-weight: regular;
+	color: white;
+	font-size: 16px;
+	width: auto;
+	margin: auto;
+	text-decoration: none;
+}
+h1{
+	font-family: Montserrat extrabold, sans-serif;
+	color:#F15A24;
+}
+h3, h4{
+	font-family: Montserrat extrabold, sans-serif;
+	color:#1B1464;
+}
+p{
+	font-family: Montserrat light, sans-serif;
+	color:#1B1464;
+}
+#Cabecalho{
+	overflow: auto;
+	zoom: 1;
+}
+.caixaazul{
+	background: #0180B0;
+	padding-left: 11%;
+	padding-right: 11%;
+	padding-top: 1.5%;
+	padding-bottom: 1%;
+	overflow: auto;
+	zoom: 1;
+}
+.logocabeca{
+		background: url(Imagens/fundo-home-adm.jpg);
+}

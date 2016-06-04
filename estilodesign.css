@@ -23,11 +23,9 @@
 }
 .submenu{
 	background: #BFA406;
-	padding-left: 1%;
-	padding-right: 1%;
-	padding-top: 1%;
-	padding-bottom: 1%;
+	padding: 1%;
 	float: center;
+	text-align: center;
 	overflow: auto;
 	zoom: 1;
 }
@@ -36,11 +34,11 @@
 	font-family: Monteserrat, sans-serif;
 	font-weight: bold;
 	text-decoration: none;
-	text-align: center;
 }
 .submenu a:hover {
-	text-decoration: underline;
-	color: #1B1464;
+	text-decoration: none;
+	background: #8E7C05;
+	padding: 1%;
 }
 #corpo{
 	overflow: auto;
@@ -76,19 +74,6 @@
 	overflow: auto;
 	zoom: 1;
 }
-h1{
-	font-family: Montserrat extrabold, sans-serif;
-	color:#F15A24;
-}
-h3, h4{
-	font-family: Montserrat extrabold, sans-serif;
-	color:#1B1464;
-}
-p{
-	font-family: Montserrat light, sans-serif;
-	color:#1B1464;
-}
-
 .flexbox {
 	display: flex;
 	flex-direction: row;
@@ -103,5 +88,8 @@ p{
 }
 #resumo-curso {
 	width: 20%;
-	background: red;
+	background: linear-gradient(rgba(255, 219, 8, 0.20));
+}
+#resumo-curso p{
+	font-size: 88%;
 }
