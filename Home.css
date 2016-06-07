@@ -111,4 +111,8 @@
 	font-weight: bolder;
 	color: #28275A;
 }
+#Portaria a:hover{
+	text-decoration: underline;
+	color: yellow;
+}
 
