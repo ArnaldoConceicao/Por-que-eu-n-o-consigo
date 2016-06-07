@@ -1,20 +1,20 @@
 
+
 #Bannerdestaque{
 	overflow: auto;
 	zoom: 1;
 }
-
-
 
 #Cursos{
 	width: 100%;
 }
 
 #Cursos > div {
+
 	color: #28275A;
 	text-align: center;
 	position: relative;
-	padding: 30px 30px 90px 30px;
+	padding: 30px 30px 70px 30px;
 	width: 25%;
 	background-size: cover;
 	align-items: center;
@@ -73,46 +73,21 @@
 .estagioDestaques{
 	position: relative;
 	color:  #28275A;
+	background: #e7eaf3;
 	overflow: auto;
 	zoom: 1;
 	float: left;
 	width: 840px;
 	height: 623px;
-}
-.backgroundEstagioDestaques{
-	position: absolute;
-	left: 0;
-	top: 0;
-	background-color: #3A4A9F;
-	opacity: 0.15;
-	filter: alpha(opacity=15);
-	width: 840px;
-	height: 623px;
-}
-.estagioDestaques a{
 	text-decoration: none;
 }
-.Destaques{
-	top: 0px;
-	margin: 0;
-	padding-top: 7px;
-	position: absolute;
-	text-align: center;
-	background-color: #3989C9;
-	color: #FFFFFF;
-	height: 38px;
-	width: 840px;
+
+.estagioDestaques a{
+	color:  #28275A;
+	text-decoration: none;
 }
-.Estagio{
-	top: 287px;
-	margin: 0;
-	padding-top: 7px;
-	position: absolute;
-	text-align: center;
-	background-color: #3989C9;
-	color: #FFFFFF;
-	height: 38px;
-	width: 840px;
+.estagioDestaques a:hover{
+	text-decoration: underline;
 }
 
 
@@ -130,8 +105,8 @@
 #Portaria a{
 	position: relative;
 	padding-top: 5px;
-	padding-left: 180px;
-	top: 15px;
+	padding-left: 5%;
+	top: 20px;
 	text-decoration: none;
 	font-weight: bolder;
 	color: #28275A;
