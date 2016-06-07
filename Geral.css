@@ -24,13 +24,23 @@ p{
 	zoom: 1;
 }
 
+
 .caixaazul{
 	background: #0180B0;
+	padding-top: 15px;
+	padding-bottom: 10px; 
+	padding-left: 300px;
 	overflow: auto;
 	zoom: 1;
 }
 
+.colunacabecalho{
+	float: center;
+	overflow: auto;
+	zoom: 1;
+}
 .flexbox .colunacabecalho{
+	text-align: center;
 	padding: 0 40px;
 }
 
