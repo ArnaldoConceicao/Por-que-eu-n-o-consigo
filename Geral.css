@@ -52,15 +52,12 @@ p{
 footer{
 	background: #3988C8;
 	display: block;
+	height: 100%;
+	padding-top: 10px 
 }
 .rodape{
 	color: #ffffff;
-	text-align: left;
 	font-size: 80%;
-	float: center;
-}
-.rodape p{
-	text-align: center;
 }
 .rodape a{
 	text-decoration: none;
@@ -71,12 +68,14 @@ footer{
 	color: #070060;
 }
 .rodape h4{
-	margin-top: 5%;
-	margin-bottom: 1%;
 	font-family: Montserrat, sans-serif;
 	font-size: 100%;
-	float: center;
+}
+.logo-rodape{
+	width: 300px;
+	margin-top: 1.5%;
 }
 .logo-rodape img{
-	width: 9%;
+	width: 60%;
+	padding-left: 10%
 }
