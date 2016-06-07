@@ -43,6 +43,10 @@ footer{
 	color: #ffffff;
 	text-align: left;
 	font-size: 80%;
+	float: center;
+}
+.rodape p{
+	text-align: center;
 }
 .rodape a{
 	text-decoration: none;
@@ -57,6 +61,7 @@ footer{
 	margin-bottom: 1%;
 	font-family: Montserrat, sans-serif;
 	font-size: 100%;
+	float: center;
 }
 .logo-rodape img{
 	width: 9%;

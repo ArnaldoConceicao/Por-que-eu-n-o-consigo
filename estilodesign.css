@@ -88,7 +88,8 @@
 }
 #resumo-curso {
 	width: 20%;
-	background: linear-gradient (rgba(255, 219, 8, 0.20),(rgba(255, 219, 8, 0.20));
+	background: #FFDB08;
+	background-opacity: 0.15;
 }
 #resumo-curso p{
 	font-size: 88%;
