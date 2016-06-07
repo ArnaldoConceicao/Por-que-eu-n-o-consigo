@@ -23,18 +23,17 @@ p{
 	overflow: auto;
 	zoom: 1;
 }
+
 .caixaazul{
 	background: #0180B0;
-	padding-left: 11%;
-	padding-right: 11%;
-	padding-top: 1.5%;
-	padding-bottom: 1%;
 	overflow: auto;
 	zoom: 1;
 }
-.logocabeca{
-	background: url(Imagens/banner_2016_fean.jpg);
+
+.flexbox .colunacabecalho{
+	padding: 0 40px;
 }
+
 footer{
 	background: #3988C8;
 	display: block;
