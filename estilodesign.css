@@ -14,22 +14,19 @@
 }
 .submenu{
 	background: #BFA406;
-	padding: 1%;
-	float: center;
-	text-align: center;
+	padding-left: 26%;
 	overflow: auto;
 	zoom: 1;
 }
-.submenu a {
+.submenu a{
 	color: #FFFFFF;
 	font-family: Monteserrat, sans-serif;
-	font-weight: bold;
 	text-decoration: none;
+	padding: 1%;
 }
-.submenu a:hover {
+.submenu a:hover{
 	text-decoration: none;
 	background: #8E7C05;
-	padding: 1%;
 }
 #corpo{
 	overflow: auto;
@@ -79,8 +76,7 @@
 }
 #resumo-curso {
 	width: 20%;
-	background: #FFDB08;
-	background-opacity: 0.15;
+	background: rgba(255, 219, 8, 0.15);
 }
 #resumo-curso p{
 	font-size: 88%;
