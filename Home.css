@@ -239,23 +239,3 @@ body{
 	color: #28275A;
 }
 
-#Rodape{
-	display: inline-block;
-	overflow: auto;
-	zoom: 1;
-}
-.rodapecaixa{
-	background: #0d6b93;
-	padding-left: 11%;
-	padding-right: 11%;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	display: block;
-	overflow: auto;
-	zoom: 1;
-}
-
-#Rodapé div a{
-	text-decoration: none;
-	color: white;
-}
