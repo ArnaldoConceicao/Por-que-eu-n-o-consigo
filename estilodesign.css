@@ -74,10 +74,21 @@
 #sobre-curso, #dados-curso {
 	width: 40%;
 }
-#resumo-curso {
+#ultima-coluna{
 	width: 20%;
+}
+#resumo-curso {
+	border-left: 5%;
+	padding: 1% 5%;
 	background: rgba(255, 219, 8, 0.15);
 }
+
 #resumo-curso p{
 	font-size: 88%;
+}
+#mais-cursos a{
+	text-decoration: none;
+}
+#mais-cursos a:hover{
+	text-decoration: none;
 }
