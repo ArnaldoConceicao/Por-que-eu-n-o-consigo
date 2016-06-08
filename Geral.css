@@ -22,10 +22,8 @@ p{
 }
 
 #Cabecalho{
-	overflow: auto;
-	zoom: 1;
+	align-items: center;
 }
-
 
 .caixaazul{
 	background: #0180B0;
@@ -38,7 +36,6 @@ p{
 
 .colunacabecalho{
 	font-weight: bold;
-	float: center;
 	overflow: auto;
 	zoom: 1;
 }

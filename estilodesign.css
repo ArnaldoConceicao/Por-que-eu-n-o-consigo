@@ -14,13 +14,13 @@
 }
 .submenu{
 	background: #BFA406;
-	padding-left: 26%;
 	overflow: auto;
 	zoom: 1;
+	justify-content: center;
 }
 .submenu a{
 	color: #FFFFFF;
-	font-family: Monteserrat, sans-serif;
+	font-family: Montserrat, sans-serif;
 	text-decoration: none;
 	padding: 1%;
 }
@@ -76,19 +76,20 @@
 }
 #ultima-coluna{
 	width: 20%;
+	padding: 0;
 }
-#resumo-curso {
+.resumo-curso {
 	border-left: 5%;
 	padding: 1% 5%;
 	background: rgba(255, 219, 8, 0.15);
 }
 
-#resumo-curso p{
+.resumo-curso p{
 	font-size: 88%;
 }
-#mais-cursos a{
+.mais-cursos a{
 	text-decoration: none;
 }
-#mais-cursos a:hover{
+.mais-cursos a:hover{
 	text-decoration: none;
 }
