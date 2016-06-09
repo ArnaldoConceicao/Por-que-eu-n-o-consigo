@@ -77,7 +77,7 @@
 	overflow: auto;
 	zoom: 1;
 	float: left;
-	width: 62.5%;
+	width: calc(100% - 500px);
 	height: 623px;
 	text-decoration: none;
 }
@@ -132,7 +132,7 @@
 
 .ajuste{
 	margin: 0px;
-	padding-top: 4%;
+	padding-top: 3%;
 	text-align: center;
 	width: 100%;
 }
