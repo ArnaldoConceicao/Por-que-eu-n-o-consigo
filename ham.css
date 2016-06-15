@@ -1,0 +1,201 @@
+
+body  {background-color: #fff; margin: 0px; font-family: 'IMPACT'; font-size: 2em;}
+
+.tarja {
+	max-width: 1250px;
+	width: 100%;
+	background-color: white;
+	height: 58px;
+	font-size: 1.5em;
+	font-style: italic;
+	margin: 0 auto;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 10px;
+}
+.opcoes {
+	max-width: 1246px;
+	width: 100%;
+	height: 50px;
+	font-family: exo;
+	font-size: 0.6em;
+	color: white;
+	margin: 0 auto;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 10px;
+	border: 2px solid white;
+	line-height: 2.4em;
+}
+.meio {
+	float: left;
+	max-width: 504px;
+	width: 100%;
+	background-color: white;
+	height: 58px;
+	font-size: 1.5em;
+	font-style: italic;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 10px;
+}
+
+.meios {
+	float: left;
+	max-width: 500px;
+	width: 100%;
+	height: 50px;
+	font-family: exo;
+	font-size: 0.6em;
+	color: white;
+	margin: 0 auto;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 10px;
+	border: 2px solid white;
+	line-height: 2.4em;
+}
+
+a.shifted_anchor {
+  position: relative;
+  top: -90px;
+  margin: 0;
+  padding: 0;
+  float: left; }
+.t0 {
+	max-width: 1264px;
+	margin: 0 auto;
+	width: 100%;
+	height: 79px;
+}
+.spaco {
+	float: left;
+	height: 79px;
+	background-color: #1957bd;
+	max-width: 2px;
+	width: 0.158227848101%; }
+.conteudo { 
+	display: block; 
+	margin: 0 auto; 
+	position: relative; 
+	max-width: 1260px; 
+	width: 100%; 
+	height: 200px; 
+  color: rgba(0,205,252, 0.95);
+	border: 2px solid rgba(0,205,252, 0.95);
+  line-height: 2em;
+  text-indent: 1em;
+  padding: 0px; }
+
+.t1, .t2, .t3, .t4, .t5, .t6 {
+ 	float: left;
+    height: 75px;
+    background-color: #fff;
+    border-top: 2px solid #1957bd;
+    border-bottom: 2px solid #1957bd;
+    text-align: center;
+	}
+span {
+  position: relative;
+  top: 25%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);  
+  /*http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/*/ }
+.t1, .t2 {
+    max-width: 75px;
+    width: 05.933544303797%;
+	}
+.t3 {
+	max-width: 600px;
+	width: 47.46835443038%;
+	}
+.t4 {
+    max-width: 202px;
+    width: 15.981012658228%;
+	}
+.t5 {
+    max-width: 100px;
+    width: 07.911392405063%;
+	}
+.t6 {
+    max-width: 300px;
+    width: 23.73417721519%;
+	}
+
+nav,
+.navbar-toggle {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+nav {
+  position: fixed;
+  float: left;
+  z-index: 100;
+  background-color: rgba(0,205,252, 0.95);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: none;
+  color: white; 
+  overflow-y: auto;
+  overflow-x: hidden;
+  table-layout: fixed;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-overflow-scrolling: touch; 
+}
+
+
+.nav-hide { display: none; }
+
+nav ul {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 0 !important; }
+
+nav ul li { list-style: none; }
+
+nav ul li a {
+  font-size: 35pt;
+  color: inherit;
+  font-weight: bolder;
+  text-decoration: none; }
+
+.navbar-toggle {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 20%;
+  width: 45px;
+  height: 45px;
+  z-index: 20;
+  cursor: pointer; }
+
+.bar1, .bar2, .bar3 {
+  width: 100%;
+  height: 6px;
+  margin-bottom: 6px;
+  background-color: #1a58aa;
+  transition: all 0.4s ease-in-out; }
+
+.navbar-on .bar1, .navbar-on .bar2, .navbar-on .bar3 { background-color: red; }
+
+.navbar-on .bar1 {
+  transform-origin: 10% 40%;
+  transform: rotate(42deg); }
+.navbar-on .bar3 {
+  transform-origin: 10% 40%;
+  transform: rotate(-42deg); }
+.navbar-on .bar2 { background-color: transparent; }

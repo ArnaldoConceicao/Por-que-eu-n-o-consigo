@@ -4,8 +4,14 @@
 }
 
 #cabecalhocurso{
+	background: url(Imagens/Design-Cabecalho.jpg);
 	overflow: auto;
 	zoom:1;
+}
+#cabecalhocurso h1{
+	font-size: 45p;
+	padding-left: 7%;
+	margin: 85px;
 }
 .DESIGN{
 	font-size: 20px;
@@ -87,9 +93,19 @@
 .resumo-curso p{
 	font-size: 88%;
 }
+.mais-cursos h4{
+	padding: 7%;
+	margin:0;
+}
 .mais-cursos a{
 	text-decoration: none;
+	padding-left: 7%;
+	display: block;
 }
 .mais-cursos a:hover{
 	text-decoration: none;
+	color: #234EA5;
+}
+.mais-cursos{
+	background: rgba(255, 219, 8, 0.30);
 }
