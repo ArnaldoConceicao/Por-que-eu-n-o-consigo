@@ -17,7 +17,9 @@ h1{
 #cabecalhocurso h1{
 	font-size: 45px;
 	padding-left: 7%;
-	margin: 85px;
+	margin: 0;
+	margin-bottom: 100px;
+	width: 300px;
 }
 .DESIGN{
 	margin-top: 0px;
@@ -26,7 +28,7 @@ h1{
 	zoom:1;
 }
 .submenu{
-	background: #BFA406;
+	background: #F15A24;
 	overflow: auto;
 	zoom: 1;
 	justify-content: center;
@@ -39,7 +41,7 @@ h1{
 }
 .submenu a:hover{
 	text-decoration: none;
-	background: #8E7C05;
+	background: #B5441B;
 }
 #corpo{
 	overflow: auto;
@@ -94,11 +96,19 @@ h1{
 .resumo-curso {
 	border-left: 5%;
 	padding: 1% 5%;
-	background: rgba(255, 219, 8, 0.15);
+	background: rgba(195, 61, 30, 0.80);
+	margin-top: -100px;
 }
 
 .resumo-curso p{
 	font-size: 88%;
+	color:white;
+	margin: 0;
+}
+.resumo-curso h4{
+	color: white;
+	margin-bottom: 2px;
+	margin-top:25px;
 }
 .mais-cursos h4{
 	padding: 7%;
