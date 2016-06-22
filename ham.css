@@ -68,7 +68,7 @@ a.shifted_anchor {
 .spaco {
 	float: left;
 	height: 79px;
-	background-color: #1957bd;
+	
 	max-width: 2px;
 	width: 0.158227848101%; }
 .conteudo { 
@@ -87,9 +87,8 @@ a.shifted_anchor {
 .t1, .t2, .t3, .t4, .t5, .t6 {
  	float: left;
     height: 75px;
-    background-color: #fff;
-    border-top: 2px solid #1957bd;
-    border-bottom: 2px solid #1957bd;
+    border-top: 2px; 
+    border-bottom: 2px;
     text-align: center;
 	}
 span {
