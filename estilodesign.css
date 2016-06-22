@@ -13,12 +13,13 @@ h1{
 	background: url(Imagens/Banner-Design.jpg);
 	overflow: auto;
 	zoom:1;
+	position: relative;
+	height:250px;
 }
 #cabecalhocurso h1{
 	font-size: 45px;
 	padding-left: 7%;
 	margin: 0;
-	margin-bottom: 100px;
 	width: 300px;
 }
 .DESIGN{
@@ -26,18 +27,21 @@ h1{
 	font-size: 45px;
 	overflow: auto;
 	zoom:1;
+	position: relative;
 }
 .submenu{
 	background: #F15A24;
 	overflow: auto;
 	zoom: 1;
 	justify-content: center;
+	position: relative;
+	margin-left: 440px;
+	padding: 1%;
 }
 .submenu a{
 	color: #FFFFFF;
 	font-family: Montserrat, sans-serif;
 	text-decoration: none;
-	padding: 1%;
 }
 .submenu a:hover{
 	text-decoration: none;
@@ -89,6 +93,12 @@ h1{
 #sobre-curso, #dados-curso {
 	width: 40%;
 }
+#dados-curso h3{
+	margin-bottom: 2px;
+}
+#dados-curso h4{
+	margin-top: 2px;
+}
 #ultima-coluna{
 	width: 20%;
 	padding: 0;
@@ -98,6 +108,8 @@ h1{
 	padding: 1% 5%;
 	background: rgba(195, 61, 30, 0.80);
 	margin-top: -100px;
+	padding-bottom: 10%;
+	position: relative;
 }
 
 .resumo-curso p{
@@ -125,4 +137,28 @@ h1{
 }
 .mais-cursos{
 	background: rgba(255, 219, 8, 0.30);
+}
+.mais-cursos h4{
+	margin-top: 1%;
+	background: #F15A24;
+	color: white;
+	font-size: 23px;
+}
+#adm{
+	background: #78ACFF;
+	color: white;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+#ciencias{
+	background: #A577D3;
+	color: white;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+#sistemas{
+	background: #B0E028;
+	color: white;
+	padding-top: 4%;
+	padding-bottom: 4%;
 }
