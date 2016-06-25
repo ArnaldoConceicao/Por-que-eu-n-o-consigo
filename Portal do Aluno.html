@@ -7,30 +7,224 @@
 	<link rel="stylesheet" type="text/css" href="Geral.css" media="screen">
 
 	<meta charset="UTF-8">
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+ 	 <script type='text/javascript' src='ham_navbar.js'></script>
+ 	 	<link rel="stylesheet" href="ham.css" type="text/css" charset="utf-8" />
 </head>
 
 <body>
+
 	
-	<section id="Cabecalho" class="caixaazul flexbox">
-		<div class="colunacabecalho">
-		<p>MENU</p>
-		</div>
+	<section id="Cabecalho" class="caixaazul">
+		
 
-		<div class="colunacabecalho">
-		<img src="Imagens/logo-fean.png" width="100%">
-		</div>
 
-		<div class="colunacabecalho">
-		<p>BUSCA</p>	
+		<div class="flexbox ajustecabecalho">
+
+			
+			<div class="t0 colunacabecalho"> 
+				 <div class="t1"> 
+					<div class='navbar-toggle' title='Menu'>
+
+							<div class='bar1'></div>
+							<div class='bar2'></div>
+							<div class='bar3'></div>
+		
+							<a href="#">MENU</a>
+
+					</div>
+				</div>
+
+				<nav class="nav-hide"> <!--Aqui é o que vai dentro do  menu-->
+					<img src="imagens/opcao1.png">
+				</nav>
+		 	</div>
+
+
+
+			<div class="colunacabecalho">
+			<img src="Imagens/logo-fean.png" width="100%">
+			</div>
+
+
+			<div class="colunacabecalho"> <!--Aqui é a busca-->
+				<div id="divBusca">
+				    <input type="text" id="txtBusca" placeholder="Buscar..."/>
+				    <button id="btnBusca"></button>
+				</div>
+			</div>
+
 		</div>
 	</section>
+
+
+	<section id="TopoPortal">
+		<img src="Imagens/Portal do Aluno Banner.jpg" width="100%">
+		<div>
+			<h1>PORTAL DO ALUNO</h1>
+		</div>
+		
+		<div>
+			<h4>Usuário: Fulano de Tal</h4>	
+			<h4>Matrícula: 320130082</h4>	
+			<h4>Curso: Design</h4>	
+			<h4>Turma: 7ADSG</h4>	
+		</div>
+	</section>
+	
 	
 	<section>
-		
+		<a href="#">Perfil</a>
+		<a href="#">Rematrícula</a>
+		<a href="Home.html">Sair</a>
 	</section>
-	
+
 	<section>
 		
-	</section>
-</body>
+		<ul style="background-color: blue;">
+			<li>Espaço do Professor</li>
+			<li>Boletim e Notas Parciais</li>
+			<li>Frequência</li>
+			<li>Biblioteca</li>
+			<li>D.I.C</li>
+			<li>Ouvidoria</li>
+		</ul>
+
+		<p>Documentos Disponíveis</p>
+		<p>2016/2</p>
+
+		<TABLE BORDER=1> 
+			
+			<TR> 
+				<TD><p>DATA</p></TD> 
+				<TD><p>DISCIPLINA</p></TD>
+				<TD><p>TÍTULO</p></TD>
+			</TR> 
+
+			<TR> 
+				<TD><p>20/05/2016</p></TD>
+				<TD><p>Projeto Gráfico 4</p></TD>
+				<TD><p>Neque porro quisquam est qui...</p></TD>
+			</TR> 
+
+			<TR> 
+				<TD><p>19/05/2016</p></TD>
+				<TD><p>Usabilidade</p></TD>
+				<TD><p>Quia dolor sit amet, consectetur...</p></TD>
+			</TR>
+
+			<TR> 
+				<TD><p>18/05/2016</p></TD>
+				<TD><p>Projeto Gráfico 4</p></TD>
+				<TD><p>Neque porro quisquam est qui...</p></TD>
+			</TR>
+
+			<TR> 
+				<TD><p>17/05/2016</p></TD>
+				<TD><p>Usabilidade</p></TD>
+				<TD><p>Quia dolor sit amet, consectetur...</p></TD>
+			</TR>
+
+			<TR> 
+				<TD><p>16/05/2016</p></TD>
+				<TD><p>Projeto Gráfico 4</p></TD>
+				<TD><p>Neque porro quisquam est qui...</p></TD>
+			</TR>
+
+			<TR> 
+				<TD><p>15/05/2016</p></TD>
+				<TD><p>Usabilidade</p></TD>
+				<TD><p>Quia dolor sit amet, consectetur...</p></TD>
+			</TR>
+ 
+			<TR> 
+				<TD><p>14/05/2016</p></TD>
+				<TD><p>Projeto Gráfico 4</p></TD>
+				<TD><p>Neque porro quisquam est qui...</p></TD>
+			</TR>
+
+			<TR> 
+				<TD><p>13/05/2016</p></TD>
+				<TD><p>Usabilidade</p></TD>
+				<TD><p>Quia dolor sit amet, consectetur...</p></TD>
+			</TR>
+
+			</TABLE> 
+
+	<footer>
+		<section class="flexbox">
+			
+			<div class="logo-rodape">
+				<img src="Imagens/Logo Branca.png">
+			</div>
+
+<!--Aqui divido a imagem do restante-->
+			<div style="width: 60%;">
+				
+				<p class="rodape">Rua Santos Drumont, 36 Centro - Florianópolis/SC - Fone: (48) 2107-5899</p>
+				<hr width="100%">
+				<div class="flexbox rodape">
+				<a href="#" style="margin-right:10%;">MISSÃO</a>
+				<a href="#" style="margin-right:10%;">@ENERGIA</a>
+				<a href="#">LOCALIZAÇÃO</a>
+				</div>
+				<hr width="100%">
+<!--Aqui divido as informações em 3 colunas-->			
+				<div class="flexbox">
+					<div class="rodape">
+						<ol style="padding: 0px;">
+							<ul style="padding: 0px;"><h4 class="rodape">ENSINOS</h4></ul>
+							<ul style="padding: 0px;"> <a href="#">Cursos de graduação</a> </ul>
+							<ul style="padding: 0px;"> <a href="#">Cursos e Atividades de Extensão</a> </ul>
+							<ul style="padding: 0px;"> <a href="#">Administração</a> </ul>
+							<ul style="padding: 0px;"> <a href="#">Ciências Contábeis</a> </ul>
+							<ul style="padding: 0px;"> <a href="#">Design</a> </ul>
+							<ul style="padding: 0px;"> <a href="#">Sistemas de Informação</a> </ul>
+						</ol>
+					</div>
+			
+					<div class="rodape">
+						<ol>
+							<ul><h4 class="rodape">SERVIÇOS</h4></ul>
+								<ul> <a href="#">Central de Atendimento</a></ul>
+								<ul> <a href="#">Ouvidoria</a></ul>
+								<ul> <a href="#">@energia</a></ul>
+								<ul> <a href="#">Conselhos Superiores</a></ul>
+								<ul> <a href="#">Portal do Egresso</a></ul>
+								<ul> <a href="#">Web FEAN</a></ul>
+								<ul> <a href="#">CPA</a></ul>
+								<ul> <a href="#">Biblioteca</a></ul>
+								<ul> <a href="#">Outros Serviços</a></ul>
+								<ul> <a href="#">Programas e Disciplinas</a></ul>
+						</ol>
+					</div>
+				
+					<div class="rodape">
+						<ol>
+							<ul><h4 class="rodape">FORMAS DE INGRESSO</h4></ul>
+								<ul> <a href="#">Processo Seletivo</a></ul>
+								<ul> <a href="#">Matrícula</a></ul>
+								<ul> <a href="#">Transferência</a></ul>
+								<ul> <a href="#">Bolsas e Convênios</a></ul>
+						</ol>
+					</div>
+				
+					<div class="rodape">
+						<ol>
+							<ul><h4 class="rodape">INSTITUCIONAL</h4></ul>
+								<ul> <a href="#">Portaria do MEC</a></ul>
+								<ul> <a href="#">Localização</a></ul>
+								<ul> <a href="#">Infraestrutura</a></ul>
+								<ul> <a href="#">Ações Sociais</a></ul>
+						</ol>
+					</div>
+				</div>
+				<hr width="100%">
+<!--Aqui termino as colunas e volta ao normal-->
+				<p class="rodape">Copyright© | Sistema de Ensino Energia | Todos os direitos reservados</p>
+			</div>
+
+		</section>	
+	</footer>
+	</body>		
 </html>
