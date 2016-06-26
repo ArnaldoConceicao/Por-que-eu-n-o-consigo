@@ -5,7 +5,8 @@
 	<link rel="stylesheet" type="text/css" href="estilodesign.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="Home.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="Geral.css" media="screen">
-
+	<link rel="stylesheet" type="text/css" href="Portal do Aluno.css" media="screen"
+	<meta charset="utf-8">
 	<meta charset="UTF-8">
 		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
  	 <script type='text/javascript' src='ham_navbar.js'></script>
@@ -37,6 +38,7 @@
 
 				<nav class="nav-hide"> <!--Aqui é o que vai dentro do  menu-->
 					<img src="imagens/opcao1.png">
+					<h1>XABLAU</h1>
 				</nav>
 		 	</div>
 
@@ -58,13 +60,16 @@
 	</section>
 
 
-	<section id="TopoPortal">
-		<img src="Imagens/Portal do Aluno Banner.jpg" width="100%">
-		<div>
-			<h1>PORTAL DO ALUNO</h1>
+	<section id="Bannerinfos">
+
+		<div class="banner">
+			<img src="Imagens/Portal do Aluno Banner.jpg">
+			<div class="TituloBanner">
+				<h1>PORTAL DO ALUNO</h1>
+			</div>
 		</div>
 		
-		<div>
+		<div class="infosaluno flexbox">
 			<h4>Usuário: Fulano de Tal</h4>	
 			<h4>Matrícula: 320130082</h4>	
 			<h4>Curso: Design</h4>	
@@ -72,88 +77,94 @@
 		</div>
 	</section>
 	
+
 	
-	<section>
+	<section class="opcoesperfil flexbox">
 		<a href="#">Perfil</a>
 		<a href="#">Rematrícula</a>
 		<a href="Home.html">Sair</a>
 	</section>
 
-	<section>
-		
-		<ul style="background-color: blue;">
-			<li>Espaço do Professor</li>
-			<li>Boletim e Notas Parciais</li>
-			<li>Frequência</li>
-			<li>Biblioteca</li>
-			<li>D.I.C</li>
-			<li>Ouvidoria</li>
-		</ul>
 
-		<p>Documentos Disponíveis</p>
-		<p>2016/2</p>
 
-		<TABLE BORDER=1> 
-			
-			<TR> 
-				<TD><p>DATA</p></TD> 
-				<TD><p>DISCIPLINA</p></TD>
-				<TD><p>TÍTULO</p></TD>
-			</TR> 
 
-			<TR> 
-				<TD><p>20/05/2016</p></TD>
-				<TD><p>Projeto Gráfico 4</p></TD>
-				<TD><p>Neque porro quisquam est qui...</p></TD>
-			</TR> 
+	<section id="conteudopagina">
+		<div class="menu">
+			<div class="itemmenu"><a href="#">Espaço do Professor</a></div>
+			<div class="itemmenu"><a href="#">Boletim e Notas Parciais</a></div>
+			<div class="itemmenu"><a href="#">Frequência</a></div>
+			<div class="itemmenu"><a href="#">Biblioteca</a></div>
+			<div class="itemmenu"><a href="#">D.I.C</a></div>
+			<div class="itemmenu"><a href="#">Ouvidoria</a></div>
+		</div>
 
-			<TR> 
-				<TD><p>19/05/2016</p></TD>
-				<TD><p>Usabilidade</p></TD>
-				<TD><p>Quia dolor sit amet, consectetur...</p></TD>
-			</TR>
+		<div class="conteudosessao">
+			<p>Documentos Disponíveis</p>
+			<p>2016/2</p>
 
-			<TR> 
-				<TD><p>18/05/2016</p></TD>
-				<TD><p>Projeto Gráfico 4</p></TD>
-				<TD><p>Neque porro quisquam est qui...</p></TD>
-			</TR>
+			<TABLE BORDER=1> 
+				
+				<TR> 
+					<TD><p>DATA</p></TD> 
+					<TD><p>DISCIPLINA</p></TD>
+					<TD><p>TÍTULO</p></TD>
+				</TR> 
 
-			<TR> 
-				<TD><p>17/05/2016</p></TD>
-				<TD><p>Usabilidade</p></TD>
-				<TD><p>Quia dolor sit amet, consectetur...</p></TD>
-			</TR>
+				<TR> 
+					<TD><p>20/05/2016</p></TD>
+					<TD><p>Projeto Gráfico 4</p></TD>
+					<TD><p>Neque porro quisquam est qui...</p></TD>
+				</TR> 
 
-			<TR> 
-				<TD><p>16/05/2016</p></TD>
-				<TD><p>Projeto Gráfico 4</p></TD>
-				<TD><p>Neque porro quisquam est qui...</p></TD>
-			</TR>
+				<TR> 
+					<TD><p>19/05/2016</p></TD>
+					<TD><p>Usabilidade</p></TD>
+					<TD><p>Quia dolor sit amet, consectetur...</p></TD>
+				</TR>
 
-			<TR> 
-				<TD><p>15/05/2016</p></TD>
-				<TD><p>Usabilidade</p></TD>
-				<TD><p>Quia dolor sit amet, consectetur...</p></TD>
-			</TR>
- 
-			<TR> 
-				<TD><p>14/05/2016</p></TD>
-				<TD><p>Projeto Gráfico 4</p></TD>
-				<TD><p>Neque porro quisquam est qui...</p></TD>
-			</TR>
+				<TR> 
+					<TD><p>18/05/2016</p></TD>
+					<TD><p>Projeto Gráfico 4</p></TD>
+					<TD><p>Neque porro quisquam est qui...</p></TD>
+				</TR>
 
-			<TR> 
-				<TD><p>13/05/2016</p></TD>
-				<TD><p>Usabilidade</p></TD>
-				<TD><p>Quia dolor sit amet, consectetur...</p></TD>
-			</TR>
+				<TR> 
+					<TD><p>17/05/2016</p></TD>
+					<TD><p>Usabilidade</p></TD>
+					<TD><p>Quia dolor sit amet, consectetur...</p></TD>
+				</TR>
+
+				<TR> 
+					<TD><p>16/05/2016</p></TD>
+					<TD><p>Projeto Gráfico 4</p></TD>
+					<TD><p>Neque porro quisquam est qui...</p></TD>
+				</TR>
+
+				<TR> 
+					<TD><p>15/05/2016</p></TD>
+					<TD><p>Usabilidade</p></TD>
+					<TD><p>Quia dolor sit amet, consectetur...</p></TD>
+				</TR>
+	 
+				<TR> 
+					<TD><p>14/05/2016</p></TD>
+					<TD><p>Projeto Gráfico 4</p></TD>
+					<TD><p>Neque porro quisquam est qui...</p></TD>
+				</TR>
+
+				<TR> 
+					<TD><p>13/05/2016</p></TD>
+					<TD><p>Usabilidade</p></TD>
+					<TD><p>Quia dolor sit amet, consectetur...</p></TD>
+				</TR>
 
 			</TABLE> 
+		</div>
+	</section>
+
 
 	<footer>
 		<section class="flexbox">
-			
 			<div class="logo-rodape">
 				<img src="Imagens/Logo Branca.png">
 			</div>
@@ -164,9 +175,9 @@
 				<p class="rodape">Rua Santos Drumont, 36 Centro - Florianópolis/SC - Fone: (48) 2107-5899</p>
 				<hr width="100%">
 				<div class="flexbox rodape">
-				<a href="#" style="margin-right:10%;">MISSÃO</a>
-				<a href="#" style="margin-right:10%;">@ENERGIA</a>
-				<a href="#">LOCALIZAÇÃO</a>
+					<a href="#" style="margin-right:10%;">MISSÃO</a>
+					<a href="#" style="margin-right:10%;">@ENERGIA</a>
+					<a href="#">LOCALIZAÇÃO</a>
 				</div>
 				<hr width="100%">
 <!--Aqui divido as informações em 3 colunas-->			
@@ -219,12 +230,12 @@
 						</ol>
 					</div>
 				</div>
-				<hr width="100%">
+					<hr width="100%">
 <!--Aqui termino as colunas e volta ao normal-->
-				<p class="rodape">Copyright© | Sistema de Ensino Energia | Todos os direitos reservados</p>
-			</div>
-
-		</section>	
+					<p class="rodape">Copyright© | Sistema de Ensino Energia | Todos os direitos reservados</p>
+				</div>	
+			</section>
 	</footer>
+
 	</body>		
 </html>
