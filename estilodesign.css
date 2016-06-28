@@ -55,7 +55,7 @@ h1{
 .breve-historia{
 	background: rgba(241, 90, 36, 0.9);
 	position: absolute;
-	margin-top: -970px;
+	margin-top: -1000px;
 	width: 670px;
 	padding-left: 1%;
 	padding-right: 1%;
@@ -106,7 +106,12 @@ h1{
 }
 
 .flexbox .coluna {
-	padding: 0 20px;
+	padding: 50px 60px;
+	padding-top: 20px;
+}
+.flexbox .coluna+.coluna{
+	padding: 20px;
+	padding-right: 40px;
 }
 
 #sobre-curso, #dados-curso {
@@ -123,8 +128,8 @@ h1{
 	padding: 0;
 }
 .resumo-curso {
-	border-left: 5%;
 	padding: 1% 5%;
+	padding-right: 30px;
 	background: rgba(195, 61, 30, 0.80);
 	margin-top: -200px;
 	padding-bottom: 10%;
@@ -148,6 +153,7 @@ h1{
 .mais-cursos a{
 	text-decoration: none;
 	padding-left: 7%;
+	padding-right: 30px;
 	display: block;
 }
 .mais-cursos a:hover{
