@@ -43,11 +43,10 @@
 	color: white;
 	margin: 0px;
 }
-.flexbox h4{
-
+.flexbox .dadosdoaluno{
+	padding-left: 80px;
+	padding-right: 80px;
 }
-
-
 
 
 
@@ -72,8 +71,9 @@
 .opcoesperfil a:hover{
 	text-decoration: underline;
 }
-.flexbox a{
-
+.flexbox .opcao{
+	padding-left: 150px;
+	padding-right: 150px;
 }
 
 
@@ -81,7 +81,7 @@
 
 #conteudopagina{
 	width: 100%;
-	height: 750px;
+	height: 669px;
 
 }
 .menu{
@@ -122,11 +122,41 @@
 
 .conteudosessao{
 	width: 70%;
-	background: rgba(235, 243, 255, 1.0);
+	background: rgba(235, 243, 255, 0.0);
 	color: rgba(40, 39, 89, 1.0);
 	margin-top: 2%;
 	margin-bottom: 2%;
 	padding-top: 1%;
 	padding-bottom: 1%;
 	float: left;
+}
+
+.ajustemenus{
+	background: rgba(235, 243, 255, 1.0);
+	width: auto;
+}
+.flexbox .ajustemenus{
+	padding-right: 60px;
+	padding-left: 60px;
+}
+.centro{
+	text-align: center;
+	position: relative;
+	justify-content: center;
+    overflow: auto;
+    zoom: 1;
+}
+.tabela{
+	width: 100%;
+	background-color: rgba(40, 39, 89, 1.0);
+}
+.branco{
+	background-color: white;
+}
+.branco a{
+	color: rgba(40, 39, 89, 1.0);
+	text-decoration: none;
+}
+.branco a:hover{
+	text-decoration: underline;
 }

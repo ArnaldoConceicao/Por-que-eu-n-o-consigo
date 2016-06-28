@@ -27,10 +27,10 @@ p{
 	zoom: 1;
 	width: 100%;
 	align-items: center;
-	/*
+	
 	padding-top: 5px;
 	padding-bottom: 5px;
-	*/
+
 }
 
 .colunacabecalho{
@@ -49,7 +49,7 @@ p{
 
 .flexbox .colunacabecalho{
 	text-align: center;
-	padding: 0 40px;
+	padding: 0 80px;
 }
 
 .menuBambagar{
