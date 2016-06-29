@@ -1,0 +1,35 @@
+.infosdecima{
+	width: 50%;
+	margin-left: 4%;
+	margin-top: 4%;
+}
+.infosdecima h1, h3, p{
+	color: black;
+}
+
+.amarelo{
+	background: rgba(255, 191, 42, 1.00);
+	color: white;
+}
+.itensportaria{
+	width: 70%;
+	border-color: rgba(255, 191, 42, 0.00);
+
+}
+.ajusteTabela{
+	padding-left: 15%;
+	padding-right: 15%;
+}
+.quadros{
+	width: 33.33%;
+	padding: 0.5%;
+	padding-top: 5%;
+	padding-bottom: 5%; 
+}
+.quadros p{
+	font-family: Montserrat extrabold;
+	font-size: 22px;
+	color: white;
+	margin: 0px;
+	padding-bottom: 5%;
+}
