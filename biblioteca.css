@@ -1,12 +1,61 @@
 h1{
-	color:#006293;
+	font-family: Montserrat extrabold, sans-serif;
+	color:#FFFFFF;
+	background: rgba(0, 98, 146, 0.8);
+	padding: 1%;
+}
+.flexbox {
+	display: flex;
+	flex-direction: row;
+}
+#cabecalho-biblio{
+	background: url(Imagens/Banner-Design.jpg);
+	overflow: auto;
+	zoom:1;
+	position: relative;
+	margin: 0;
+	height: 428px;
+}
+#cabecalho-biblio h1{
+	font-size: 45px;
+	padding-left: 5%;
+	margin: 0;
+	width: 330px;
+}
+.BIBLIOTECA{
+	margin-top: 0px;
+	font-size: 45px;
+	overflow: auto;
+	zoom:1;
+	position: relative;
+}
+.submenu-biblio{
+	background: #006292;
+	overflow: auto;
+	zoom: 1;
+	position: relative;
+	margin-top: -70px;
+	margin-left: 515px;
+	margin-right: 240px;
+}
+.submenu-biblio a{
+	color: #FFFFFF;
+	font-family: Montserrat, sans-serif;
+	text-decoration: none;
+	padding: 2%;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+.submenu-biblio a:hover{
+	text-decoration: none;
+	background: #043B5A;
 }
 .pesquisa{
 	background: #006293;
-	color: white;
-	padding: 5px 70%;
-	text-align: left;
-	float: left;
+	color: #FFFFFF;
+	padding: 5px;
+	position: absolute;
+	margin-top: -70px;
 }
 button{
 	width: 10%;
