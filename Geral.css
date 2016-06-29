@@ -23,14 +23,11 @@ p{
 
 .caixaazul{
 	background: linear-gradient(to right, rgba(107, 178, 198, 1.0), rgba(57, 135, 199, 1.0));
-	overflow: auto;
 	zoom: 1;
 	width: 100%;
 	align-items: center;
-	
 	padding-top: 5px;
 	padding-bottom: 5px;
-
 }
 
 .colunacabecalho{
@@ -52,25 +49,39 @@ p{
 	padding: 0 80px;
 }
 
-.menuBambagar{
-	float: left;
-}
-.flexbox .menuBambagar{
-	text-align: center;
-	align-items: center;
-}
 .ajustecabecalho{
 	align-items: center;
 	bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
+	left: 0;
+	right: 0;
+	text-align: center;
+	position: relative;
+	justify-content: center;
+	/* overflow: auto; */
+	zoom: 1;
+}
+
+.ajustaHamburguer{
+	text-align: left;
+	padding: 20px;
+	color: white;
+}
+.ajustaHamburguer h5{
+	font-family: Montserrat light, sans-serif;
+	font-size: 14px;
+}
+.Links{
+	text-align: left;
 	position: relative;
 	justify-content: center;
     overflow: auto;
     zoom: 1;
+    margin-top: 30px;
 }
-
+.Links a{
+	padding-left: 23px;
+	padding-right: 23px;
+}
 
 
 
@@ -78,7 +89,7 @@ p{
     background-color:#E0EEEE;
     border:solid 1px #1a58aa;
     border-radius:10px;
-    width:231px;
+    width:131px;
     height:35px;
 }
  
@@ -89,7 +100,7 @@ p{
     font-size:18px;
     border:none;
     height:32px;
-    width:191px;
+    width:101px;
 }
  
 #btnBusca{
@@ -104,6 +115,7 @@ p{
 #divBusca img{
     float:left;
 }
+
 
 
 footer{
@@ -136,3 +148,5 @@ footer{
 	width: 60%;
 	padding-left: 10%
 }
+
+
