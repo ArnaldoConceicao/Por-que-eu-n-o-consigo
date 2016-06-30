@@ -49,13 +49,14 @@
 	background: #043B5A;
 }
 .caixa-pesquisa{
-	background: rgba(0, 98, 146, 0.80);
 	position: absolute;
-	margin-top: -1000px;
-	width: 670px;
-	padding-left: 1%;
-	padding-right: 1%;
-	margin-left: 60px;
+	float: left;
+	width: 25%;
+	background: rgba(2, 129, 176, 0.75);
+	top: 20;
+	padding: 1%;
+	font-size: 20px;
+	text-align: center;
 }
 .pesquisa{
 	background: #FFFFFF
