@@ -1,27 +1,14 @@
-<<<<<<< HEAD
-h1{
-	font-family: Montserrat extrabold, sans-serif;
-	color:#FFFFFF;
-	background: rgba(0, 98, 146, 0.8);
-	padding: 1%;
-}
 .flexbox {
 	display: flex;
 	flex-direction: row;
 }
 #cabecalho-biblio{
-	background: url(Imagens/Banner-Design.jpg);
+	background: url(Imagens/Banner-Biblioteca.jpg);
 	overflow: auto;
 	zoom:1;
 	position: relative;
 	margin: 0;
 	height: 428px;
-}
-#cabecalho-biblio h1{
-	font-size: 45px;
-	padding-left: 5%;
-	margin: 0;
-	width: 330px;
 }
 .BIBLIOTECA{
 	margin-top: 0px;
@@ -29,6 +16,16 @@ h1{
 	overflow: auto;
 	zoom:1;
 	position: relative;
+}
+.BIBLIOTECA > h1{
+	font-family: Montserrat extrabold, sans-serif;
+	color:#FFFFFF;
+	background: rgba(0, 98, 146, 0.8);
+	padding: 1%;	
+	font-size: 45px;
+	padding-left: 5%;
+	margin: 0;
+	width: 330px;
 }
 .submenu-biblio{
 	background: #006292;
@@ -51,17 +48,18 @@ h1{
 	text-decoration: none;
 	background: #043B5A;
 }
-=======
-/*h1{
-	color:#006293;
-} ERA ISSO AQUI YARA*/
->>>>>>> origin/master
-.pesquisa{
-	background: #006293;
-	color: #FFFFFF;
-	padding: 5px;
+.caixa-pesquisa{
+	background: rgba(0, 98, 146, 0.80);
 	position: absolute;
-	margin-top: -70px;
+	margin-top: -1000px;
+	width: 670px;
+	padding-left: 1%;
+	padding-right: 1%;
+	margin-left: 60px;
+}
+.pesquisa{
+	background: #FFFFFF
+	color: #000000;
 }
 button{
 	width: 10%;
