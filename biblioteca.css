@@ -70,3 +70,7 @@ button{
 button img{
 	width: 20%;
 }
+.filtrar-por{
+	background: #FFFFFF;
+	border-color: #666666;
+}
