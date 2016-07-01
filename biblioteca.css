@@ -71,6 +71,34 @@ button img{
 	width: 20%;
 }
 .filtrar-por{
+	padding-right: 90px;
 	background: #FFFFFF;
-	border-color: #666666;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #666666;
+}
+ul{
+	font-family: Montserrat extrabold, sans-serif;
+	color:#1B1464;
+}
+li{
+	color: #000000;
+	list-style: none;
+}
+.destaque{
+	color:#006292;
+	font-family: Montserrat extrabold, sans-serif;
+}
+.flexbox {
+	display: flex;
+	flex-direction: row;
+}
+
+.flexbox .coluna {
+	padding: 50px 60px;
+	padding-top: 20px;
+}
+.flexbox .coluna+.coluna{
+	padding: 20px;
+	padding-right: 40px;	
 }
