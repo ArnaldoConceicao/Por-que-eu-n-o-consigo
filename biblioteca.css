@@ -9,6 +9,7 @@ button img{
 ul{
 	font-family: Montserrat, sans-serif;
 	color:#1B1464;
+	width: 110px;
 }
 li{
 	color: #000000;
@@ -84,11 +85,12 @@ p{
 }
 .filtrar-por{
 	margin: 10px;
-	padding-right: 90px;
+	padding-right: 20px;
 	background: #FFFFFF;
     border-width: 2px;
     border-style: solid;
     border-color: #666666;
+	line-height: 1.5;
 }
 
 .destaque{
@@ -104,10 +106,16 @@ p{
 .flexbox .coluna-biblio {
 	padding: 0 20px;
 	padding-right: 0;
+	height: 270px;
+	width: 185px;
+}
+.primeira h4{
+	color: #000000;
 }
 .flexbox .coluna-biblio+.coluna-biblio{
-	padding: 0 20px;	
+	padding: 0 20px;
 	padding-right: 10px;
+	width: 730px;
 }
 
 
