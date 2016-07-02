@@ -1,6 +1,22 @@
-.flexbox {
-	display: flex;
-	flex-direction: row;
+button{
+	width: 10%;
+	margin: 10%;
+	float: right;
+}
+button img{
+	width: 20%;
+}
+ul{
+	font-family: Montserrat, sans-serif;
+	color:#1B1464;
+}
+li{
+	color: #000000;
+	list-style: none;
+}
+p{
+	font-family: Montserrat, sans-serif;
+	color: #000000;
 }
 #cabecalho-biblio{
 	background: url(Imagens/Banner-Biblioteca.jpg);
@@ -27,6 +43,8 @@
 	margin: 0;
 	width: 330px;
 }
+
+
 .submenu-biblio{
 	background: #006292;
 	overflow: auto;
@@ -48,6 +66,8 @@
 	text-decoration: none;
 	background: #043B5A;
 }
+
+
 .caixa-pesquisa{
 	position: absolute;
 	float: left;
@@ -62,43 +82,65 @@
 	background: #FFFFFF
 	color: #000000;
 }
-button{
-	width: 10%;
-	margin: 10%;
-	float: right;
-}
-button img{
-	width: 20%;
-}
 .filtrar-por{
+	margin: 10px;
 	padding-right: 90px;
 	background: #FFFFFF;
     border-width: 2px;
     border-style: solid;
     border-color: #666666;
 }
-ul{
-	font-family: Montserrat extrabold, sans-serif;
-	color:#1B1464;
-}
-li{
-	color: #000000;
-	list-style: none;
-}
+
 .destaque{
 	color:#006292;
 	font-family: Montserrat extrabold, sans-serif;
 }
+
+
 .flexbox {
 	display: flex;
 	flex-direction: row;
 }
-
-.flexbox .coluna {
-	padding: 50px 60px;
-	padding-top: 20px;
+.flexbox .coluna-biblio {
+	padding: 0 20px;
+	padding-right: 0;
 }
-.flexbox .coluna+.coluna{
-	padding: 20px;
-	padding-right: 40px;	
+.flexbox .coluna-biblio+.coluna-biblio{
+	padding: 0 20px;	
+	padding-right: 10px;
+}
+
+
+.livros{
+	background: rgba(0, 98, 146, 0.30);
+	margin: 10px 50px 20px 30px;
+}
+
+
+
+.quantidade{
+	background: rgba(0, 98, 146, 0.50);
+	padding: 10px;
+}
+.quantidade > img{
+	width: 40px;
+}
+.quantidade > p{
+	color: #FFFFFF;
+	font-family: Montserrat, sans-serif;
+	text-align: center;
+}
+
+
+.descricao{
+	padding: 0;
+}
+
+
+.mais{
+	background: rgba(0, 98, 146, 0.50);
+	padding: 10px;
+}
+.mais > img{
+	width: 40px;
 }
