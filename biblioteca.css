@@ -7,17 +7,22 @@ button img{
 	width: 20%;
 }
 ul{
-	font-family: Montserrat, sans-serif;
+	font-family: Montserrat extrabold, sans-serif;
 	color:#1B1464;
-	width: 110px;
+	width: 130px;
 }
 li{
+	font-family: Montserrat, sans-serif;
 	color: #000000;
 	list-style: none;
 }
 p{
 	font-family: Montserrat, sans-serif;
 	color: #000000;
+}
+input{
+	margin-left: 50px;
+	margin-top: 7px;
 }
 #cabecalho-biblio{
 	background: url(Imagens/Banner-Biblioteca.jpg);
@@ -82,10 +87,11 @@ p{
 	font-size: 20px;
 	text-align: left;
 }
-.caixa-pesquisa input{
-	margin: 3%;
-	margin-top: 3%;
+.caixa-pesquisa > input{
+	margin: 3% 3%;
 }
+
+
 .butao{
 	margin: 0px;
 	background: rgba(0, 98, 146, 0.8);
@@ -93,6 +99,9 @@ p{
 	height: 100%;
 	border: 0px;
 	position: relative;
+}
+.butao img{
+	width: 30px;
 }
 
 .pesquisa{
@@ -105,29 +114,23 @@ p{
 	margin-top: 0px;
 	position: absolute;
 	float: left;
-	top: 130px;
-	padding-left: 3%;
+	top: 120px;
 	padding-right: 3%; 
 }
-<<<<<<< HEAD
 
 button{
 	width: 10%;
 	margin: 10%;
 	float: right;
-=======
+}
 .filtrar-por{
 	margin: 10px;
-	padding-right: 20px;
+	padding-right: 40px;
 	background: #FFFFFF;
     border-width: 2px;
     border-style: solid;
     border-color: #666666;
-<<<<<<< HEAD
-	line-height: 1.5;
-=======
->>>>>>> origin/master
->>>>>>> origin/master
+	line-height: 2.0;
 }
 
 .destaque{
@@ -135,6 +138,10 @@ button{
 	font-family: Montserrat extrabold, sans-serif;
 }
 
+.flexbox-vertical{
+	display: flex;
+	flex-direction: column;
+}
 
 .flexbox {
 	display: flex;
@@ -159,6 +166,7 @@ button{
 .livros{
 	background: rgba(0, 98, 146, 0.30);
 	margin: 10px 50px 20px 30px;
+	position: relative;
 }
 
 
@@ -168,6 +176,7 @@ button{
 	padding: 10px;
 }
 .quantidade > img{
+	margin-top: 30px;
 	width: 40px;
 }
 .quantidade > p{
@@ -179,6 +188,8 @@ button{
 
 .descricao{
 	padding: 0;
+	position: relative;
+	margin-bottom: -60px;
 }
 
 
@@ -187,5 +198,12 @@ button{
 	padding: 10px;
 }
 .mais > img{
+	margin-top: 60px;
 	width: 40px;
+}
+
+#abaixo{
+	float: right;
+	position: relative;
+	margin-left: 90px;
 }
