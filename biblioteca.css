@@ -24,6 +24,14 @@ input{
 	margin-left: 50px;
 	margin-top: 7px;
 }
+h1 > a {
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+h1 > a:hover {
+	text-decoration: none;
+}
 #cabecalho-biblio{
 	background: url(Imagens/Banner-Biblioteca.jpg);
 	overflow: auto;
@@ -114,10 +122,8 @@ input{
 	margin-top: 0px;
 	position: absolute;
 	float: left;
-<<<<<<< HEAD
 	top: 120px;
 	padding-right: 3%; 
-=======
 	top: 80px;
 	margin-left: 3%;
 	margin-right: 3%; 
@@ -126,7 +132,6 @@ input{
 .flexbox .tipodepesquisa{
 	margin-right: 6%;
 	margin-left: 6%;
->>>>>>> origin/master
 }
 
 button{
